@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,600;1,200&display=swap');
 body {
   background-color: #faf3e0;
   font-family: ;
@@ -9,12 +9,18 @@ body {
 
 h1, h2, h3 {
   color: #1e212d;
-  font-family: 'Open Sans', sans-sefif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: ;
 }
 h1 {
   font-size: 32px;
+  letter-spacing: 1px;
+  opacity: 70%;
+}
+
+body{
+  margin: 0px;
 }
 
 a {
@@ -25,6 +31,22 @@ a {
 a:hover{
   color: #faf3e0;
  /* background-color: #b68973;*/
+}
+.banner {
+  background-image: url(https://source.unsplash.com/I83zrBHfBB4/1600x1200);
+  background-repeat: no-repeat;
+  padding: 150px;
+}
+.card_image{
+  display: inline-flex;
+/*  height: 120px;
+  width: 120px;*/
+}
+
+.card_img_size{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 .profile_image {
 vertical-align: middle;
@@ -45,6 +67,7 @@ vertical-align: middle;
 .container {
   width: 800px;
   margin: 0 auto;
+ /* display: flex;*/
   /*padding: 20px;*/
 }
 .card {
